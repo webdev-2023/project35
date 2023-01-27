@@ -16,7 +16,7 @@
 const optionsCity = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '7e88fd735dmsh6d63dd96708518ap18e30bjsn73a3eacb345c',
+        'X-RapidAPI-Key': '<your key>',
         'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
     }
 }
@@ -77,7 +77,7 @@ const getCityTeamparature = (lon, lat) => {
     const optionsWeather = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '7e88fd735dmsh6d63dd96708518ap18e30bjsn73a3eacb345c',
+            'X-RapidAPI-Key': '<your key>',
             'X-RapidAPI-Host': 'weatherbit-v1-mashape.p.rapidapi.com'
         }
     }
